@@ -7,3 +7,12 @@ $ sudo apt-get install -y ansible
 
 Verify the installation of Ansible:
 $ ansible --version
+
+On Master:
+
+$ ssh-keygen
+press enter
+press enter
+press enter
+
+Key will be generated
