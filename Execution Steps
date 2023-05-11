@@ -16,3 +16,17 @@ press enter
 press enter
 
 Key will be generated
+
+[master] 
+
+$ cat /home/labsuser/.ssh/id_rsa.pub
+
+Copy this public key
+
+Go to worker node
+
+execute command:
+
+$ sudo vim ~/.ssh/authorized_keys
+
+In this file past the copies public key form master
