@@ -1,5 +1,5 @@
 
-- hosts: wordpress
+- hosts: webserver
   gather_facts: false
   become: true
   become_user: root
