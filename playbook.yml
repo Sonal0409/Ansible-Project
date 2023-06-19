@@ -6,7 +6,7 @@
   tasks:
   - name: install python 2
     raw: test -e /usr/bin/python || (apt -y update && apt install -y python2-minimal)
-- hosts: wordpress
+- hosts: webserver
   roles:
   - server
   - php
