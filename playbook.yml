@@ -3,7 +3,7 @@
   gather_facts: false
   become: true
   become_user: root
-  tasks:
+  #tasks:
   #- name: install python 2
    # raw: test -e /usr/bin/python || (apt -y update && apt install -y python2-minimal)
 - hosts: webserver
