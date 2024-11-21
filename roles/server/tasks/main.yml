@@ -12,3 +12,10 @@
   - php
   - libapache2-mod-php
   - python3-mysqldb
+
+- name: Making sure services are running 
+  service: name={{ item }} state=started
+  become: yes
+  with_items:
+  - apache2
+  - mysql
